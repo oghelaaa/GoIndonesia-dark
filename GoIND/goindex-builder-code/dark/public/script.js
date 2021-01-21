@@ -16,7 +16,7 @@ clipboard.on("error", function(e) {
 var app = new Vue({
   data: {
     loading: false,
-    cacheKey: "goindex_options",
+    cacheKey: "GoIndonesia-dark_options",
     options: {
       authCode: "",
       siteName: "",

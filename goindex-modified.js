@@ -389,7 +389,7 @@ class googleDrive {
     const user = this.root.user || '',
       pass = this.root.pass || '',
       _401 = new Response('Unauthorized', {
-        headers: {'WWW-Authenticate': `Basic realm="goindex:drive:${this.order}"`},
+        headers: {'WWW-Authenticate': `Basic realm="GoIndonesia-dark:drive:${this.order}"`},
         status: 401
       });
     if (user || pass) {

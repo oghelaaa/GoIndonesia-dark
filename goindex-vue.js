@@ -1,5 +1,5 @@
 self.props = {
-	title: 'goindex',
+	title: 'GoIndonesia-dark',
 	default_root_id: '0AK0dce9h38dOUk9PVA', // 'root' OR 0AK0dce9h38dOUk9PVA
   // https://drive.google.com/drive/u/1/folders/0AK0dce9h38dOUk9PVA
   storage: 'drives', // 'drive' OR 'drives'
@@ -448,7 +448,7 @@ self.props = {
   }
 
   const gd = new GoogleDrive(self.props);
-  const HTML = `<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><title>${self.props.title}</title><link href="/~_~_goindex/resources/css/app.css" rel=stylesheet></head><body><script>window.props = { title: '${self.props.title}', default_root_id: '${self.props.default_root_id}', api: location.protocol + '//' + location.host, upload: ${self.props.upload} }<\/script><div id=app></div><script src="/~_~_goindex/resources/js/app.js"><\/script></body></html>`;
+  const HTML = `<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><title>${self.props.title}</title><link href="/~_~_GoIndonesia-dark/resources/css/app.css" rel=stylesheet></head><body><script>window.props = { title: '${self.props.title}', default_root_id: '${self.props.default_root_id}', api: location.protocol + '//' + location.host, upload: ${self.props.upload} }<\/script><div id=app></div><script src="/~_~_GoIndonesia-dark/resources/js/app.js"><\/script></body></html>`;
 
   async function onGet(request) {
     let {
@@ -456,8 +456,8 @@ self.props = {
     } = request;
     const rootId = request.searchParams.get('rootId') || self.props.default_root_id;
 
-    if (path.startsWith('/~_~_goindex/resources/')) {
-      const remain = path.replace('/~_~_goindex/resources/', '');
+    if (path.startsWith('/~_~_GoIndonesia-dark/resources/')) {
+      const remain = path.replace('/~_~_GoIndonesia-dark/resources/', '');
       const r = await fetch(`https://raw.githubusercontent.com/oghelaaa/GoIndonesia-dark/production/themes/material-vue-${self.props.ui}/${remain}`);
       return new Response(r.body, {
         headers: {
@@ -465,7 +465,7 @@ self.props = {
           'Cache-Control': 'max-age=600'
         }
       });
-    } else if (path === '/~_~_goindex/drives') {
+    } else if (path === '/~_~_GoIndonesia-dark/drives') {
       return new Response(JSON.stringify((await gd.listDrive())), {
         headers: {
           'Content-Type': 'application/json'
@@ -590,7 +590,7 @@ self.props = {
   function unauthorized() {
     return new Response('Unauthorized', {
       headers: {
-        'WWW-Authenticate': 'Basic realm="goindex"',
+        'WWW-Authenticate': 'Basic realm="GoIndonesia-dark"',
         'Access-Control-Allow-Origin': '*'
       },
       status: 401
