@@ -156,7 +156,7 @@ function html(current_drive_order = 0, model = {}) {
 <meta name="robots" content="index, follow"><meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://i.imgur.com/rOyuGjA.gif">
 <meta name="twitter:description" content="Combining the power of Cloudflare Workers and Google Drive will allow you to index your files on the browser on Cloudflare Workers.">
-<meta name="keywords" content="goindex, google, drive, goindex, gdindex, classic, material, workers-script, oauth-consent-screen, google-drive, cloudflare-workers, themes">
+<meta name="keywords" content="GoIndonesia-dark, google, drive, GoIndonesia-dark, gdindex, classic, material, workers-script, oauth-consent-screen, google-drive, cloudflare-workers, themes">
 <meta name="twitter:title" content="GoIndonesia-dark">
 <meta name="twitter:url" content="https://github.com/oghelaaa/GoIndonesia-dark">
 <link rel="shortcut icon" href="https://i.imgur.com/rOyuGjA.gif">
