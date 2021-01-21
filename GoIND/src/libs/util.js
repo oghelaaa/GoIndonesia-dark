@@ -13,7 +13,7 @@ const util = {
  * @param {String} title 标题
  */
 util.title = function (titleText) {
-  const processTitle = process.env.VUE_APP_TITLE || 'GoIndex'
+  const processTitle = process.env.VUE_APP_TITLE || 'GoIndonesia-Dark'
   window.document.title = `${processTitle}${titleText ? ` | ${titleText}` : ''}`
 }
 
