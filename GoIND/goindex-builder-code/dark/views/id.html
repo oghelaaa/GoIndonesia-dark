@@ -4,10 +4,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="google-site-verification" content="NeG-I2RECmGVyv_o9sISirpGd8t6Oi0Xwz7h_Cfq9Ao" />
+    <meta
+      name="google-site-verification"
+      content="NeG-I2RECmGVyv_o9sISirpGd8t6Oi0Xwz7h_Cfq9Ao"
+    />
     <meta name="description" content="A cool thing made with Glitch" />
 
-    <title>GoIndex code builder</title>
+    <title>GoInd Builder Dark</title>
 
     <!--     <link
       id="favicon"
@@ -21,7 +24,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/alx-xlx/goindex@2.0.5-darkmode-0.1/goindex-acrou/goindex-builder-code/dark/src/bulma.min.css"
+      href="https://cdn.jsdelivr.net/gh/oghelaaa/GoIndonesia-dark@dark-2.0.8/goindex-builder-code/dark/src/bulma.min.css"
     />
     <link
       rel="preload"
@@ -64,35 +67,38 @@
                 <h1 class="title is-1 has-text-white">
                   GoIndex Auto Code Builder<a
                     style="font-size:12px;color:white;"
-                    href="/zh"
-                    >中文</a
+                    href="/index"
+                    >English</a
                   >
                 </h1>
-                This is a Modified (Dark Mode) version of website to help you get started with
+                Ini adalah versi situs web Modifikasi (Mode Gelap) untuk membantu Anda
+                memulai
                 <a
-                  href="https://github.com/alx-xlx/goindex"
+                  href="https://github.com/oghelaaa/GoIndonesia-dark"
                   target="_blank"
-                  >GoIndex</a
-                > ( Dark Mode ). <br />
+                  >GoIndoDark</a
+                >
+                ( Dark Mode ). <br />
                 <span>
-                  The Modified (Dark Mode) source code of this website can be found
+                  Kode sumber Modifikasi (Mode Gelap) dari situs web ini dapat ditemukan
                   <a
-                    href="https://glitch.com/edit/#!/goindex"
+                    href="https://glitch.com/edit/#!/goindo-builder-dark"
                     target="_blank"
-                    >here</a
-                  >, so no need to worry about whether it is trustworthy.</span
-                > <br />
+                    >Disini</a
+                  >, jadi tidak perlu khawatir.</span
+                >
+                <br />
                 <span>
-                  The original work for this website can be found 
+                  Karya asli untuk situs web ini dapat ditemukan
                   <a
                     href="https://glitch.com/edit/#!/goindex-quick-install"
                     target="_blank"
-                    >here</a
-                  >, and the original Github Repo can be found 
+                    >Disini</a
+                  >, dan Repo Github yang asli dapat ditemukan
                   <a
                     href="https://github.com/Aicirou/goindex-theme-acrou"
                     target="_blank"
-                    >here</a
+                    >Disini</a
                   ></span
                 >
               </div>
@@ -100,27 +106,27 @@
             <div class="card">
               <div class="card-content">
                 <div class="field">
-                  <h5 class="title is-5">1. Get Authorization Code</h5>
+                  <h5 class="title is-5">1. Dapatkan Kode Otorisasi</h5>
                 </div>
                 <p>
-                  Click the following link and authorize, then copy the code you
-                  get.
+                  Klik link berikut dan beri otorisasi, lalu salin kode Anda
+                  Dapatkan.
                 </p>
                 <a
                   class="button is-dark"
                   target="_blank"
                   href="https://accounts.google.com/o/oauth2/auth?client_id=202264815644.apps.googleusercontent.com&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&approval_prompt=auto"
-                  >Click me</a
+                  >Klik disini</a
                 >
               </div>
             </div>
             <div class="card">
               <div class="card-content">
                 <div class="field">
-                  <h5 class="title is-5">2. Fill the form</h5>
+                  <h5 class="title is-5">2. Isi formulirnya</h5>
                 </div>
                 <div class="field">
-                  <label class="label">Authorization Code</label>
+                  <label class="label">Kode Otorisasi</label>
                   <div class="control">
                     <input
                       v-model="options.authCode"
@@ -130,7 +136,7 @@
                   </div>
                 </div>
                 <div class="field">
-                  <label class="label">Site name</label>
+                  <label class="label">Nama situs</label>
                   <div class="control">
                     <input
                       v-model="options.siteName"
@@ -143,16 +149,16 @@
                   <table class="table">
                     <thead>
                       <tr>
-                        <th>Drive ID</th>
-                        <th>Title</th>
-                        <th>User name</th>
-                        <th>Password</th>
+                        <th>ID Drive</th>
+                        <th>Judul</th>
+                        <th>Nama Pengguna</th>
+                        <th>Kata Sandi</th>
                         <th>
                           <button
                             class="button is-small is-white"
                             @click="addRoot"
                           >
-                            + Add
+                            + Tambahkan
                           </button>
                         </th>
                       </tr>
@@ -203,7 +209,7 @@
                 <div class="columns">
                   <div class="column">
                     <div class="field">
-                      <label class="label">Render options</label>
+                      <label class="label">Opsi render</label>
                       <div class="control">
                         <label class="checkbox">
                           <input type="checkbox" v-model="options.head_md" />
@@ -215,23 +221,21 @@
                         </label>
                         <label class="checkbox">
                           <input type="checkbox" v-model="options.desc" />
-                          File/Folder description
+                          Deskripsi File / Folder
                         </label>
                         <p class="help has-text-grey">
-                          Uncheck do not render by default
+                          Hapus centang jangan render secara default
                         </p>
                       </div>
                     </div>
                   </div>
                   <div class="column is-one-quarter">
                     <div class="field">
-                      <label class="label">Languages</label>
+                      <label class="label">Bahasa</label>
                       <div class="control">
                         <div class="select">
                           <select v-model="options.languages">
                             <option value="en">English</option>
-                            <option value="zh-chs">简体中文</option>
-                            <option value="zh-cht">繁体中文</option>
                           </select>
                         </div>
                       </div>
@@ -239,14 +243,14 @@
                   </div>
                 </div>
                 <div class="field">
-                  <label class="label">Enable options</label>
+                  <label class="label">Aktifkan opsi</label>
                   <div class="control">
                     <label class="checkbox">
                       <input
                         type="checkbox"
                         v-model="options.enable_password_file_verify"
                       />
-                      Password file verify
+                      Memverifikasi file dengan kata sandi
                     </label>
                     <label class="checkbox">
                       <input
@@ -256,7 +260,7 @@
                       Cors file down
                     </label>
                     <p class="help has-text-grey">
-                      If you don't know what is this, just leave it alone.
+                      Jika Anda tidak tahu apa ini, lewati saja.
                     </p>
                   </div>
                 </div>
@@ -264,7 +268,7 @@
                   <div class="control">
                     <label class="checkbox">
                       <input type="checkbox" v-model="options.remember" />
-                      Keep these options in mind and auto fill next time
+                      Ingatlah opsi ini dan isi otomatis di lain waktu
                     </label>
                   </div>
                 </div>
@@ -293,18 +297,18 @@
                   <h5 class="title is-5">3. Finished</h5>
                 </div>
                 <p>
-                  Copy the following code and go to
+                  Salin kode berikut dan buka
                   <a href="https://workers.cloudflare.com/" target="_blank"
                     >CloudFlare Workers</a
                   >
-                  to paste the code.
+                  untuk menempelkan kode..
                 </p>
                 <a
                   class="button is-text has-text-right"
                   id="copy"
                   data-clipboard-target="#code"
                 >
-                  Copy the code to clipboard
+                  Salin kode ke clipboard
                 </a>
                 <div class="control">
                   <textarea
@@ -319,7 +323,7 @@
             <div class="card" v-cloak v-show="result.status==='fail'">
               <div class="card-content">
                 <div class="field">
-                  <h5 class="title is-5">3. Failed</h5>
+                  <h5 class="title is-5">3. Gagal</h5>
                 </div>
                 {{ result.message }}
               </div>

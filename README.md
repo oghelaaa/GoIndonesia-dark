@@ -6,12 +6,12 @@
 <div align="center">
 
 <img alt="goindex-license" src="https://img.shields.io/badge/Open_source-MIT-red.svg?logo=git&logoColor=green"/>
-<img src="https://img.shields.io/github/last-commit/alx-xlx/goindex.svg?logo=Sublime+Text&logoColor=green&label=Active"/>
-<img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/alx-xlx/goindex">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alx-xlx/goindex">
+<img src="https://img.shields.io/github/last-commit/oghelaaa/GoIndonesia-dark.svg?logo=Sublime+Text&logoColor=green&label=Active"/>
+<img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/oghelaaa/GoIndonesia-dark">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oghelaaa/GoIndonesia-dark">
 <img alt="goindex-softwareheritage.org" src="https://archive.softwareheritage.org/badge/origin/https://github.com/Unipisa/CMM/"/>
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/alx-xlx/goindex">
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Falx-xlx%2Fgoindex&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false"/>
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/oghelaaa/GoIndonesia-dark">
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Foghelaaa%2FGoIndonesia-dark&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false"/>
 
 </div>
 
@@ -41,9 +41,9 @@ Copy the [index.js](https://raw.githubusercontent.com/alx-xlx/goindex/31fabf3d7f
 OR
 
 ### GoIndex Auto Code Builder
-https://goindex.glitch.me/
+https://goindo-builder-dark.glitch.me/
 
-Simply visit [this](https://goindex.glitch.me/) Modified (only for Dark Mode) version to automatically generate your `index.js` without having to manually edit anything.
+Simply visit [this](https://goindo-builder-dark.glitch.me/) Modified (only for Dark Mode) version to automatically generate your `index.js` without having to manually edit anything.
 
 ### [List View - Dark Mode](https://goindex.teamsdrives.workers.dev)
 ![goindex-list](https://i.imgur.com/Y9pJo1V.png)
