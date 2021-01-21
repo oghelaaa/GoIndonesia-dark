@@ -1,6 +1,6 @@
 ﻿<div align="center">
-<h1>goindex</h1>
-<img src="https://github.com/alx-xlx/goindex/raw/master/themes/logo.png" alt="goindex" height="">
+<h1>GoIndonesia-dark</h1>
+<img src="https://github.com/oghelaaa/GoIndonesia-dark/raw/master/themes/logo.png" alt="GoIndonesia-dark" height="">
 
 </div>
 <div align="center">
@@ -30,54 +30,21 @@ Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and
 ## 1. [Aicirou/goindex-theme-acrou](https://github.com/Aicirou/goindex-theme-acrou)
 
 
-Worker Script (Dark Mode) : [index.js](https://raw.githubusercontent.com/alx-xlx/goindex/31fabf3d7ff221ff34aaaf23e63a1a5a49e40b4f/goindex-acrou/go2index/index.js)
+Worker Script (Dark Mode) : [index.js](https://raw.githubusercontent.com/oghelaaa/GoIndonesia-dark/master/GoIND/go2index/index.js)
 
-Worker Script (Multiple Google Accounts) : [index-multiple-accounts.js](https://github.com/alx-xlx/goindex/blob/master/goindex-acrou/go2index/index-multiple-accounts.js)
+Worker Script (Multiple Google Accounts) : [index-multiple-accounts.js](https://raw.githubusercontent.com/oghelaaa/GoIndonesia-dark/master/GoIND/go2index/index-multiple-accounts.js)
 
-Demo - [goindex.teamsdrives.workers.dev](https://goindex.teamsdrives.workers.dev)
+Demo - [https://oprek.oghe3003.workers.dev/](https://goindex-indo.herokuapp.com/id)
 
-Copy the [index.js](https://raw.githubusercontent.com/alx-xlx/goindex/31fabf3d7ff221ff34aaaf23e63a1a5a49e40b4f/goindex-acrou/go2index/index.js) script to [workers.dev](https://workers.cloudflare.com/) and edit `client_id`, `client_secret`, `refresh_token` with yours
+Copy the [index.js](https://raw.githubusercontent.com/oghelaaa/GoIndonesia-dark/master/GoIND/go2index/index.js) script to [workers.dev](https://workers.cloudflare.com/) and edit `client_id`, `client_secret`, `refresh_token` with yours
 
 OR
 
 ### GoIndex Auto Code Builder
-https://goindo-builder-dark.glitch.me/
+https://goindex-indo.herokuapp.com/id
+https://goindo-builder-dark.glitch.me/id
 
 Simply visit [this](https://goindo-builder-dark.glitch.me/) Modified (only for Dark Mode) version to automatically generate your `index.js` without having to manually edit anything.
-
-### [List View - Dark Mode](https://goindex.teamsdrives.workers.dev)
-![goindex-list](https://i.imgur.com/Y9pJo1V.png)
-
-### [Thumbnail View - Dark Mode](https://goindex.teamsdrives.workers.dev)
-![goindex-thumbnail](https://i.imgur.com/crg4dGp.gif)
-
-### Toggle View
-![goindex-toggle-view](https://i.imgur.com/RdvgfIf.png)
-
-
----
-## 2. [maple3142/GDIndex](https://github.com/maple3142/GDIndex)
----
-Worker Script - [index.js](https://github.com/alx-xlx/goindex/blob/2.0.8-darkmode-0.1/goindex-vue.js)
-
-Demo - [gdindex-dark.teamsdrives.workers.dev](https://gdindex-dark.teamsdrives.workers.dev/)
-### [Demo - Dark Mode](https://gdindex-dark.teamsdrives.workers.dev/)
-![](https://i.imgur.com/1uIQZr5.png)
-
-## 3. donwa/goindex
-
-Workers Script - [index.js](https://github.com/alx-xlx/goindex/blob/2.0.8-darkmode-0.1/goindex.js)
-
-## Themes
-
-### Demo Classic : [goindex-classic.teamsdrives.workers.dev](https://goindex-classic.teamsdrives.workers.dev)
-
-![](https://i.imgur.com/lNeh3S3.png)
-
-### Demo Material: [goindex-material.teamsdrives.workers.dev](https://goindex-material.teamsdrives.workers.dev)
-
-![](https://i.imgur.com/jAq7Lsm.png)
-
 
 ## Deployment  
 1.Install `rclone` software locally  
@@ -97,7 +64,7 @@ Get free Google Shared Drives
 - [team.hackgence.com](https://team.hackgence.com)
 
 ## Quick Deployment  
-1.Open https://installen.gd.workers.dev/  
+1.Open https://goindex-indo.herokuapp.com/id 
 2.Auth and get the code  
 3.Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)  
 
